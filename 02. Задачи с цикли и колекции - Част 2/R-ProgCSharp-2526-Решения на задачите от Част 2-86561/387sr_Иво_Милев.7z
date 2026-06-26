@@ -1,0 +1,103 @@
+﻿namespace Dom_po_Prakrikum_C__chast_2
+{
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
+			///////////////////////////////////////////////////   1
+
+			//int[] numbers = new int[10];
+			//Random rand = new Random();
+
+			//for (int i = 0; i < numbers.Length; i++)
+			//{
+			//	numbers[i] = rand.Next(1, 101);
+			//}
+			//Console.WriteLine("10 random numbers : ");
+			//for (int i = 0; i < numbers.Length; i++)
+			//{
+			//	Console.WriteLine(numbers[i]);
+			//}
+
+			///////////////////////////////////////////////////   2
+
+			//int[,] matrix = new int[5, 5];
+			//Random rand = new Random();
+
+			//for (int i = 0; i < 5; i++)
+			//{
+			//	for (int j = 0; j < 5; j++)
+			//	{
+			//		matrix[i, j] = rand.Next(1, 101);
+			//	}
+			//}
+
+			//for (int i = 0; i < 5; i++)
+			//{
+			//	for (int j = 0; j < 5; j++)
+			//	{
+			//		Console.Write(matrix[i, j] + "\t");
+			//	}
+			//	Console.WriteLine();
+			//}
+			/////////////////////////////////////////////////// 3
+			//List<string> names = new List<string>();
+			//string input;
+
+			//while (true)
+			//{
+			//	input = Console.ReadLine();
+
+			//	if (input == "")
+			//	{
+			//		break;
+			//	}
+
+			//	names.Add(input);
+			//}
+
+			//names.Sort();
+
+			//Console.WriteLine("Имена :");
+
+			//foreach (string name in names)
+			//{
+			//	Console.WriteLine(name);
+			//}
+
+			///////////////////////////////////////// 4
+			//Dictionary<string, int> residents = new Dictionary<string, int>();
+
+			//string input = Console.ReadLine();
+			//string[] pairs = input.Split(',');
+
+			//foreach (string pair in pairs)
+			//{
+			//	string[] data = pair.Trim().Split(' ');
+			//	string last_name = data[0];
+			//	int apartment = int.Parse(data[1]);
+
+			//	residents[last_name] = apartment;
+			//}
+
+			//int number = int.Parse(Console.ReadLine());
+
+			//bool found = false;
+
+			//foreach (var resident in residents)
+			//{
+			//	if (resident.Value == number)
+			//	{
+			//		Console.WriteLine(resident.Key);
+			//		found = true;
+			//		break;
+			//	}
+			//}
+
+			//if (!found)
+			//{
+			//	Console.WriteLine("Няма фамилия с такъв номер.");
+			//}
+		}
+	}
+}
